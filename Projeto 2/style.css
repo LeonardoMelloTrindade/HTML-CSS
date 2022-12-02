@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 50%;
+}
+
+p {
+    color: wheat;
+}
+
+h3 {
+    margin: 20px 0px;
+}
+
+label {
+    font: 0.5em;
+}
+
+#header {
+    font-size: 4em;
+    text-align: center;
+    height: 200px;
+    background-color: coral; 
+}
+
+#header p{
+    padding-top: 30px;
+}
+
+#fds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#escolha-tipo {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#tipo-pokemon {
+    width: 100px;
+    height: 30px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+#pokemons {
+    padding: 5px;
+    margin: 2rem 1rem;
+    border: 5px double rgb(1, 1, 1);
+    border-radius: 15px;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+}
+
+#pokemons:hover {
+    background-color: rgb(165, 159, 159);
+    transition: 0.5s;
+    color: azure;
+}
