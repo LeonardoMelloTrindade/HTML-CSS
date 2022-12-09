@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="listapokemons.js" defer></script>
+    <title>Pokedex</title>
+</head>
+
+<body class="container">
+    <div id="cabecalho">
+        <div id="cabecalho-pokedex">
+            <p>POKEDEX</p>
+        </div>
+        <div id="cabecalho-input">
+            <label>Escolha o tipo</label>
+        <select id="tipo-pokemon" change="pegarTipo()">
+            <option selected onclick="vazio()">Selecione</option>
+            <option value="Todos" onclick="AllPokemons()">Todos</optio>
+            <option value="Elétrico" onclick="criandoPokemon('Elétrico')">Elétrico</option>
+            <option value="Planta" onclick="criandoPokemon('Planta')">Planta</option>
+            <option value="Fogo" onclick="criandoPokemon('Fogo')">Fogo</option>
+            <option value="Normal" onclick="criandoPokemon('Normal')">Normal</option>
+            <option value="Normal" onclick="criandoPokemon('Fada')">Fada</option>
+        </select>
+        </div>
+
+    </div>
+
+    <div id="container">
+    </div>
+    <template id="cardTemplate">
+        <div class="card" id="card">
+            <div class="card-body">
+                <h3 id="pokedex" class="card-pokedex">{{pokedex}}</h3>
+                <h3 id="nome-pokemon" class="card-text">{{nome}}</h3>
+                <div class="card-image">{{imagem}}</div>
+                <h4 class="card-text">{{tipo}}</h4>
+            </div>
+        </div>
+    </template>
+    
+
+</body>
+<!--
+<script>
+    var nome = 'roberto';//literal|string
+    var idade = 40;// number
+    var peso = 99.5; // float
+    var matriculado = true;//boolean
+
+    //maneiras de criar objetos
+    var aluno = {};
+    aluno.nome = 'roberto campos';
+    aluno.idade = 40;
+    aluno.cpf = '11111111111';
+
+    var aluno2 = {
+        nome: 'mateus alberigi',
+        idade: 40,
+        cpf: '22222222222222'
+    };
+
+    var aluno3 = {
+        nome: 'Leo Soares',
+        idade: 40,
+        cpf: '3333333333333333'
+    };
+
+    // criacao de um array de objetos
+    var listaAlunos = [aluno, aluno2, aluno3];
+
+    var container = document.getElementById('container');
+    var tableContainer = document.getElementById('tableContainer');
+    var cardTemplate = document.getElementById('cardTemplate');
+    var tableTemplate = document.getElementById('tableTemplate');
+
+    // loop para ITERAR uma lista
+    for (var index = 0; index < listaAlunos.length; index++) {
+        var aluno = listaAlunos[index];
+
+        // exemplo de templates com cards
+        var card = cardTemplate.content.cloneNode(true).getElementById('card').outerHTML;
+        card = card.replace(/{{nome}}/g, aluno.nome);
+        card = card.replace(/{{idade}}/g, aluno.idade);
+        card = card.replace(/{{cpf}}/g, aluno.cpf);
+
+        // exemplo de templates com table rows
+        var tableRow = tableTemplate.content.cloneNode(true).querySelector('tr').outerHTML;
+        tableRow = tableRow.replace(/{{nome}}/g, aluno.nome);
+        tableRow = tableRow.replace(/{{idade}}/g, aluno.idade);
+        tableRow = tableRow.replace(/{{cpf}}/g, aluno.cpf);
+
+        // adicionando card ao div container
+        container.innerHTML += card;
+
+        // adicionando linha na tabela tableContainer
+        tableContainer.innerHTML += tableRow;
+
+    }
+
+</script>
+-->
+</html>
