@@ -1,0 +1,151 @@
+* {
+    font-size: 20px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ecebeb;
+}
+
+th {
+    height: 50px;
+}
+
+span {
+    width: 70%;
+    display: block;
+}
+
+select {
+    height: 55px;
+}
+
+#container {
+    margin-top: 20px;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    padding: 30px;
+    text-align: justify;
+}
+
+.table span {
+    font-weight: bold;
+    color: #373737;
+    text-align: center;
+}
+
+.table button {
+    width: 60px;
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+    position: relative;
+    left: 30px;
+}
+
+.img-fluid {
+    width: 70px;
+    height: 70px;
+}
+
+.posicao-margin {
+    position: relative;
+    right: 20px;
+}
+
+/*TIPOS POKEMIN -- INICIO*/
+.steel {
+	background-color: #f4f4f4;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.fire {
+	background-color: #cf1b1b95;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.grass {
+	background-color: #38d443;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.electric {
+	background-color: #ffd500;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.water, .ice {
+	background-color: #428bac;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.ground {
+	background-color: #db9147;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.rock {
+	background-color: #6d684d;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.fairy {
+	background-color: #9f5dab;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.poison {
+	background-color: #44152f;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.bug {
+	background-color: #ac7d3d;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.dragon {
+	background-color: #5977af;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.psychic {
+	background-color: #c2469d;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.flying {
+	background-color: #a5989898;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.fighting {
+	background-color: #865143;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.normal {
+	background-color: #958f5c;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/*TIPOS POKEMIN -- FIM*/
