@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	background-color: #DCDCDC;
+}
+
+/*Fim formatação da pag*/
+/*layout- começo*/
+
+#cabeçalho {
+	background: orange;
+	text-align: center;
+	padding: 15px;
+}
+
+ #logo {
+ 	padding: 10px;
+ }
+
+ #menu {
+ 	text-decoration: none;
+ 	padding: 20px;
+ }
+
+ #cabeçalho a {
+ 	text-decoration: none;
+ 	padding: 10px;
+ }
+ .titulo {
+ 	color: yellow;
+ 	font-size: 2.5em;
+ }
+
+ #principal {
+ 	background-color: #DCDCDC; 
+ 	width: 920px;
+ 	margin: 20px auto;
+}
+
+#area-postagens {
+	width: 650px;
+	float: left;
+
+}
+
+#lateral {
+	width: 230px;
+	float: right;
+	margin-left: 30px;
+}
+
+.postagens {
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 50px;
+}
+
+#rodape {
+	background: grey;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
+/*layout- fim*/
+/*formatação do link- começo*/
+ #cabeçalho a:link {
+ 	color: white;
+ }
+
+#cabeçalho a:visited {
+ 	color: white;
+ }
+
+ #cabeçalho a:active {
+ 	color: white;
+ }
+
+ #cabeçalho a:hover {
+ 	background-color: white;
+ 	color: orange;
+ }
+
+ a:hover {
+ 	color: orange;
+ 	text-decoration: underline;
+ }
+
+ a:link {
+ 	color: orange;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: orange;
+ }
+ /*formatação do link- fim*/
+
+ .branco {
+ 	color: white;
+ }
+ h1 {
+ 	font-size: 3em;
+ }
+
+ h2{
+ 	color: orange;
+ }
+
+ .sub-titulo {
+ 	font-size: 0.9em;
+ 	display: block;
+ 	margin-bottom: 10px;
+ }
+
+ .conteudo-lateral {
+ 	background: white;
+ 	padding: 10px;
+ 	margin: 0px 20px 20px 20px;
+ }
+
+ h3 {
+ 	background-color: grey;
+ 	font-size: 1.5em;
+ 	padding: 5px;
+ }
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+ }
